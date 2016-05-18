@@ -36,7 +36,7 @@ class Test(Config):
 
 
 class Development(Config):
-    DEBUG = True
+    DEBUG = False
     DM_SEARCH_PAGE_SIZE = 5
 
 
