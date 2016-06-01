@@ -105,7 +105,8 @@ def delete_service(index_name, doc_type, service_id):
 
 
 def api_response(data, status_code, key='message'):
-    if status_code // 100 == 2:
+    
+    if type(status_code) is int and status_code // 100 == 2:
         return jsonify({key: data}), status_code
     else:
         return jsonify(error=data), status_code
