@@ -4,7 +4,6 @@
       "_meta": {
           "version": "2015-10-12"
       },
-      "dynamic": "strict",
       "properties": {
         "id": {
           "type": "string",
